@@ -158,8 +158,8 @@ export function FeaturedJobs() {
                     </div>
                   </div>
                 </CardContent>
-                <CardFooter>
-                  <Button className="w-full">Apply Now</Button>
+                <CardFooter className="flex justify-center items-center">
+                  <Button className="w-full max-w-[200px]">Apply Now</Button>
                 </CardFooter>
               </Card>
             </motion.div>
