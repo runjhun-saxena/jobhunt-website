@@ -1,6 +1,6 @@
 # JobHunt
 
-**JobHunt** assignment given to check my skills reagrding next.js and more . 
+Developing the landing page of this website was part of my assignment, I have tried to keep the structure of the code clean and structured.
 
 ##  Tech Stack
 
