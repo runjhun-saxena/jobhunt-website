@@ -24,6 +24,7 @@ export function Hero() {
   return (
     <section className="relative bg-primary overflow-hidden lg:pb-[130px]">
       <div className="absolute inset-0 bg-gradient-to-b from-primary/80 to-primary"></div>
+      {/* animated background  */}
       <motion.div
         className="absolute top-0 left-0 right-0 h-full lg:h-[140%] opacity-20"
         initial={{ backgroundPosition: "0% 0%" }}

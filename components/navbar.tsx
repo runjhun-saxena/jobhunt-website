@@ -25,8 +25,7 @@ export function Navbar() {
           </div>
           <span className="text-xl font-bold">JobHunt</span>
         </Link>
-
-        
+      
         <nav className="hidden lg:flex items-center gap-6">
           <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
             Find Jobs
