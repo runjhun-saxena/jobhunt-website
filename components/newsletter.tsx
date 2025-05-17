@@ -53,7 +53,7 @@ export function Newsletter() {
             />
             <Button
               size="lg"
-              className="bg-white text-primary hover:bg-white/90 h-10 md:h-12"
+              className="bg-primary text-white hover:bg-primary/55 h-10 md:h-12"
               onClick={handleSubscribe}
             >
               Subscribe
