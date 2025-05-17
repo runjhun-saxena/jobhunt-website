@@ -18,7 +18,7 @@ export function Navbar() {
       transition={{ type: "spring", stiffness: 300, damping: 30 }}
     >
       <div className="container flex h-16 items-center justify-between">
-        {/* Logo */}
+      
         <Link href="/" className="flex items-center gap-2">
           <div className="flex h-10 w-10 items-center justify-center rounded-md bg-primary text-white font-bold text-xl">
             JH
@@ -26,7 +26,7 @@ export function Navbar() {
           <span className="text-xl font-bold">JobHunt</span>
         </Link>
 
-        {/* Desktop Nav Links */}
+        
         <nav className="hidden lg:flex items-center gap-6">
           <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
             Find Jobs
@@ -42,14 +42,14 @@ export function Navbar() {
           </Link>
         </nav>
 
-        {/* Right Controls */}
+        
         <div className="flex items-center gap-4">
-          {/* Theme Toggle (only on lg and up) */}
+          
           <div className="hidden lg:block">
             <ThemeToggle />
           </div>
 
-          {/* Desktop Buttons */}
+          
           <div className="hidden lg:flex items-center gap-4">
             <Button variant="outline" asChild>
               <Link href="#">Log in</Link>
@@ -59,7 +59,7 @@ export function Navbar() {
             </Button>
           </div>
 
-          {/* Hamburger Button for tablet & below */}
+         
           <button
             className="lg:hidden"
             onClick={() => setMobileMenuOpen(prev => !prev)}
