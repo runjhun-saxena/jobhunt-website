@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange={false}>
           {children}
-          <Toaster /> {/* 👈 Add this to enable toast messages */}
+          <Toaster /> 
         </ThemeProvider>
       </body>
     </html>
